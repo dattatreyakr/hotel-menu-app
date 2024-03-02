@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/TodaysMenuStyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./index.html">dishes</a>
+            <a href="./TodaysMenuPage.html">Menu</a>
+            <a href="#menu">cart</a>
+            <a href="#review">review</a>
+            <a href="#order">Admin</a>
+        </nav>
+
+        <div class="icons">
+            <div class="avatar">
+
+                <img class="avatar__image"
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" />
+                <h6>Log out</h6>
+            </div>
+        </div>
+
+    </header>
+    <div class="section-2">
+        <input type="hidden" class="global-hidden-input" />
+        <div class="special-dishes">
+            <div style="margin-top: 30px; ">
+                <h3 style="font-size: 40px;">Our Today's Menu</h3>
+
+            </div>
+            <div class="category-wrapper">
+                <button class="active">All</button>
+                <button>Breakfast</button>
+                <button>Lunch</button>
+                <button>Snacks</button>
+                <button>Dinner</button>
+                <button>Cold Drinks</button>
+            </div>
+            <div class="menu-wrapper">
+                <!-- this is single special dishes card -->
+                <div class="menu-card">
+                    <input type="hidden" value="1" class="hidden-menu-card" />
+                    <div class="menu-image-container">
+                        <img src="./images/dish-1.png" class="dish-image" alt="card" />
+                        <!-- rating data comes here -->
+                        <div class="rating-container">
+
+                            <img src="./images/start.png" class="rating-img" />
+                            <span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title-container">
+                            <h4 class="dish-title">Burger King is the </h4>
+                            <p>served with cold drink and pasta</p>
+                        </div>
+
+                        <article class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                            vel
+                            quam,
+                            voluptatem
+                            cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                            debitis nemo provident libero in!</article>
+                        <div class="pricing-container">
+                            <h5>120</h5>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                    <button class="cart-btn">
+                        <img src="./images/shopping-cart.png" />
+                    </button>
+                </div>
+                <div class="menu-card">
+                    <input type="hidden" value="2" class="hidden-menu-card" />
+                    <div class="menu-image-container">
+                        <img src="./images/dish-2.png" class="dish-image" alt="card" />
+
+                        <!-- rating data comes here -->
+                        <div class="rating-container">
+
+                            <img src="./images/start.png" class="rating-img" />
+                            <span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title-container">
+                            <h4 class="dish-title">Momos</h4>
+                            <p>served with cold drink and pasta lksd dlkscds ckdjj dcjisd kdj cv ojdjc jcdf ndasdnsiub
+                                dhuas is</p>
+                        </div>
+
+                        <article class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                            vel
+                            quam,
+                            voluptatem
+                            cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                            debitis nemo provident libero in!</article>
+                        <div class="pricing-container">
+                            <h5>120</h5>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                    <button class="cart-btn">
+                        <img src="./images/shopping-cart.png" />
+                    </button>
+                </div>
+                <div class="menu-card">
+                    <input type="hidden" value="3" class="hidden-menu-card" />
+                    <div class="menu-image-container">
+                        <img src="./images/dish-1.png" class="dish-image" alt="card" />
+                        <!-- rating data comes here -->
+                        <div class="rating-container">
+
+                            <img src="./images/start.png" class="rating-img" />
+                            <span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title-container">
+                            <h4 class="dish-title">Burger King</h4>
+                            <p>served with cold drink and pasta</p>
+                        </div>
+
+                        <article class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                            vel
+                            quam,
+                            voluptatem
+                            cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                            debitis nemo provident libero in!</article>
+                        <div class="pricing-container">
+                            <h5>120</h5>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                    <button class="cart-btn">
+                        <img src="./images/shopping-cart.png" />
+                    </button>
+                </div>
+                <div class="menu-card not-available">
+                    <input type="hidden" value="4" class="hidden-menu-card" />
+                    <div class="menu-image-container">
+                        <img src="./images/dish-1.png" class="dish-image" alt="card" />
+                        <!-- rating data comes here -->
+                        <div class="rating-container">
+
+                            <img src="./images/start.png" class="rating-img" />
+                            <span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title-container">
+                            <h4 class="dish-title">Burger King</h4>
+                            <p>served with cold drink and pasta</p>
+                        </div>
+
+                        <article class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                            vel
+                            quam,
+                            voluptatem
+                            cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                            debitis nemo provident libero in!</article>
+                        <div class="pricing-container">
+                            <h5>120</h5>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                    <button class="cart-btn">
+                        <img src="./images/shopping-cart.png" />
+                    </button>
+                    <div class="disabled-text">Not available</div>
+                </div>
+
+
+
+            </div>
+            <div class="modal-container hidden">
+                <div class="modal">
+                    <h5 class="modal-title">Add Shipping Address</h5>
+                    <div>
+
+                        <input type="text" class="name" placeholder="name" />
+                    </div>
+                    <div>
+
+                        <input type="text" class="name" name="phone number" placeholder="phone number" />
+                    </div>
+                    <div>
+
+                        <input type="text" class="name" name="city" placeholder="city/district/town" />
+                    </div>
+                    <div>
+
+                        <input type="text" class="state" placeholder="state" />
+                    </div>
+                    <div>
+
+                        <input type="text" class="name" name="pincode" placeholder="pincode" />
+                    </div>
+
+
+                    <div>
+                        <input class="name" type="text" placeholder="address" />
+                    </div>
+
+
+                    <div class="close-btn">
+                        <button>X</button>
+                    </div>
+                    <div class="cart-info">
+                        <h4>order summary</h4>
+                        <div>
+                            <p>Order total &nbsp;&nbsp;--</p>
+                            <p class="cart-modal-total-menu">1299</p>
+                            <input type="hidden" class="cart-modal-total-hidden-menu" />
+                        </div>
+                    </div>
+                    <div class="order-btn-container">
+                        <button class="buy-btn">Place Order</button>
+                    </div>
+                </div>
+            </div>
+            <script src="./js/cartLogic.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Restro </title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Items</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts-->
+
+    <header>
+
+        <a href="#" class="logo">Foody</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="./TodaysMenuPage.html">Menu</a>
+            <a href="./cart.html">cart</a>
+            <a href="./MyOrders.html">My Orders</a>
+            <a href="#">Admin</a>
+        </nav>
+
+        <div class="icons">
+            <div class="avatar">
+
+                <img class="avatar__image"
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" />
+                <h6>Log out</h6>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- //special dishes section -->
+    <div class="section-1" id="dishes">
+        <div class="special-dishes">
+            <div>
+                <h3>Our Best Menu</h3>
+                <p>made with premium ingrediants</p>
+            </div>
+            <div class="dish-wrapper">
+                <!-- this is single special dishes card -->
+                <div class="dish-card">
+                    <img src="./images/dish-1.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Burger King</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+                <!-- this is single special dishes card -->
+                <div class="dish-card">
+                    <img src="./images/dish-2.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Green Salad</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+                <!-- this is single special dishes card -->
+                <div class="dish-card">
+                    <img src="./images/dish-3.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Green Salad</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+                <!-- this is single special dishes card -->
+                <div class="dish-card">
+                    <img src="./images/dish-4.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Green Salad</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+                <div class="dish-card">
+                    <img src="./images/dish-4.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Green Salad</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+                <div class="dish-card">
+                    <img src="./images/dish-4.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Green Salad</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+                <div class="dish-card">
+                    <img src="./images/dish-4.png" class="dish-image" alt="card" />
+                    <h4 class="dish-title">Green Salad</h4>
+                    <p class="dish-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel quam,
+                        voluptatem
+                        cupiditate error, nihil labore, eos recusandae dicta natus amet officia. Ab sapiente omnis
+                        debitis nemo provident libero in!</p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- custom js file link  -->
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
