@@ -1,0 +1,1 @@
+The Hotel Menu App is a user-friendly web application developed using HTML, CSS, and JavaScript, designed to streamline the dining experience for hotel guests. Upon accessing the app, users are greeted with an intuitive interface displaying a range of culinary options available within the hotel's dining facilities.
